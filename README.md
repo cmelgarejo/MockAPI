@@ -3,7 +3,7 @@
 This is a simple Ruby app using the Rails 5 framework, a simple API   
 
 
-###TL;DR
+### TL;DR
 ```
 ~$ rails db:create
 ~$ rails db:migrate
@@ -12,19 +12,20 @@ This is a simple Ruby app using the Rails 5 framework, a simple API
 ~$ rails s
 ```
 
-##Run tests
+## Run tests
 
 ```
 ~$ rails test
 ~$ bundle exec rspec
 ```
 
-##Deploying to Heroku
+## Deploying to Heroku
 ```
 ~$ heroku login
+
 ~$ git push heroku master
 ~$ heroku run rake db:migrate
 ~$ heroku run rake db:seed
 ```
 
-And open [https://<your-app>.herokuapp.com](https://<your-app>.herokuapp.com)
+And open [https://your-app.herokuapp.com](https://<your-app>.herokuapp.com)
