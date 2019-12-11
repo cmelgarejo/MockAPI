@@ -32,4 +32,4 @@ from the project root run:
 ~$ heroku open
 ```
 
-And open [https://your-app.herokuapp.com](https://<your-app>.herokuapp.com)
+And open [https://your-app.herokuapp.com](https://<your-app>.herokuapp.com) :D
